@@ -71,3 +71,8 @@ img {
     padding: 10px;
 }
 
+.task-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
