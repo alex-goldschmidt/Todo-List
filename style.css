@@ -54,6 +54,7 @@ img {
     position: absolute;
     margin-left: 175px;
     margin-top: 3px;
+    border-radius: 50%;
 }
 
 .project {
@@ -61,8 +62,12 @@ img {
 }
 
 #form-project {
-    display: flex;
+    display: none;
     justify-content: center;
+}
+
+#form-task {
+    padding: 15px;
 }
 
 .project-added {
@@ -71,9 +76,17 @@ img {
     padding: 10px;
 }
 
+.delete-project {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(0, 179, 255);
+}
+
 .task-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 25px;
+    border: 10px solid rgb(0, 179, 255);
+    margin-top: 10px;
 }
 
