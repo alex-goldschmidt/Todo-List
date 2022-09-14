@@ -68,6 +68,7 @@ img {
 
 #form-task {
     padding: 15px;
+    display: none;
 }
 
 .project-added {
